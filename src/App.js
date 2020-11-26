@@ -5,7 +5,6 @@ export default function App() {
   let [count,setcount]=useState(1)
   return (
     <div className="App">
-      <header className="App-header">
         <msg counter={count}/>
         <br />
         <button onclick={
@@ -13,7 +12,6 @@ export default function App() {
         }>
           update counter
         </button>
-      </header>
     </div>
   );
 }
