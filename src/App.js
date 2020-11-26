@@ -4,7 +4,7 @@ import {msg} from './msg.js';
 export default function App() {
   let [count,setcount]=useState(1)
   return (
-    <div className="App">
+    <div>
         <msg counter={count}/>
         <br />
         <button onclick={
