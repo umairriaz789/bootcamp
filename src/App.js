@@ -11,8 +11,8 @@ export default function App() {
         <br />
         <msg counter={count}/>
         <br />
-        <button onclick={
-          ()=> setcount(++count)
+        <button onClick={
+          ()=> setcount(count + 1)
         }>
           update counter
         </button>
