@@ -3,7 +3,7 @@ import './App.css';
 import {msg} from './msg.js';
 import { useState } from 'react';
 function App() {
-  let [count,setcount]=useState()
+  let [count,setcount]=useState(1)
   return (
     <div className="App">
       <header className="App-header">
